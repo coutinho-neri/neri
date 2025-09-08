@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Rafaela</title>
+  <meta name="description" content="Portfólio Rafaela" />
+  <meta name="keywords" content="Pontual, Organizada, Legal, TI, Simpatica" />
+  <meta name="author" content="Rafaela" />
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" type="imagex/png" href="flor.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#home" class="logo">Rafaela</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+<section id="home">
+  <div class="home-text">
+    <h1>Olá, eu sou a Rafaela!</h1>
+    <h3 class="typing-text">Eu sou<span></span></h3>
+    <h2> Marketing Digital</h2>
+    <p>
+      Eu sou Rafaela Coutinho Neri, tenho 25 anos, sou formada em Marketing Digital e atualmente estou cursando pós-graduação na área. Apaixonada pelo universo online, desenvolvo estratégias criativas e eficientes para redes sociais, criação de conteúdo e presença digital. Sempre em busca de evolução, acredito que aprendizado contínuo é a chave para transformar ideias em resultados.
+      Meu objetivo é combinar esse aprendizado técnico com Marketing Digital, explorando estratégias criativas para redes sociais e presença online.
+    </p>
+    <button class="btn" onclick="location.href='#contato'">Me contrate</button>
+    <div class="social-icons" style="margin-top: 20px;">
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="home-img">
+    <img src="img.jpg.jpg" alt="Foto da Rafaela estudando HTML/CSS" />
+  </div>
+</section>
+
+<section id="sobre" aria-labelledby="sobre-title">
+  <div class="container">
+    <div class="content-block">
+      <div>
+        <h3 id="sobre-title" class="section-title">Sobre Mim</h3>
+      </div>
+      <p>
+        Sou uma pessoa que ama estar com a família, adora se maquiar e é apaixonada por explorar coisas novas e desafiadoras. 
+        Gosto de unir criatividade com aprendizado constante, sempre buscando evoluir tanto pessoal quanto profissionalmente.
+      </p>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="family.png">
+        <img src="makeup.png">
+        <img src="adventurer.png" >
+        <img src="happy-customers.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h3 class="section-title">Projetos</h3>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="idea.png" alt="Projeto" />
+      <div class="project-info">
+        <h4>Minha Primeira Página</h4>
+        <p>Um projeto simples feito com HTML e CSS básico, apenas para praticar e aprender.</p>
+        <a href="https://github.com/coutinho-neri/segundo-site-rafa-neri-" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="habilidades">
+  <h3 class="section-title">Habilidades</h3>
+  <div class="content-block">
+    <p>
+      HTML básico, CSS básico, Criação de páginas simples, Faculdade em Marketing Digital, Noções de Design e Criatividade para Web.
+    </p>
+  </div>
+</section>
+
+
+<section id="contato">
+  <h3 class="section-title">Contato</h3>
+  <div class="content-block" style="text-align:center;">
+    <p>Vamos nos conectar! Estou iniciando no mundo web e a aprender mais sobre Marketing Digital.</p>
+    
+    <div class="social-icons" style="justify-content:center; margin-top: 15px;">
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" name="nome" placeholder="Seu nome"  />
+      <input type="email" name="email" placeholder="Seu email"  />
+      <textarea name="mensagem" placeholder="Sua mensagem" rows="5" ></textarea>
+      <button  class="btn enviar-btn">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2031 Rafaela ♡ | Aprendendo HTML/CSS e o mundo do Marketing Digital</p>
+</footer>
+</body>
+</html>
